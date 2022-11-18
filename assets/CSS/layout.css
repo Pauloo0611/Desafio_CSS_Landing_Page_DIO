@@ -1,10 +1,11 @@
+@import url('reset.css');
 body {
     background-color: black;
 }
 .banner {
     border-bottom: 1px solid #33A8DB80;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(../Images/banner.png);
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url(/Desafio_CSS_Landing_Page_DIO/assets/Images/banner.png);
     height: 600px;
     padding-top: 60px;
     background-repeat: no-repeat;
@@ -96,7 +97,7 @@ body {
 #transform-world {
     color: #fff;
     height: 560px;
-    background-image: url(../Images/woman-code.png);
+    background-image: url(/Desafio_CSS_Landing_Page_DIO/assets/Images/woman-code.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
